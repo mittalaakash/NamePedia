@@ -1,0 +1,26 @@
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.search-input {
+    padding: 8px 15px;
+    font-size: 25px;
+    width: 450px;
+    height: 40px;
+    border-width: 0px;
+    background: #a592f2;
+    color: #e7e9f0;
+    border-radius: 50px;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+.search-input::placeholder {
+    font-size: 20px;
+    color: #e7e9f0;
+    font-family: 'Hachi Maru Pop', cursive;
+}
+.search-input:focus {
+    outline: none;
+}
